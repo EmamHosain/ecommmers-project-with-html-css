@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ecommerce project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="this is an ecommerce project for making emam hossain">
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+
+
+    <body>
+ <!-- nav bar stats here -->
+ <div class="nav-ham" id="hamburger">
+    
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+   </div>
+   <nav class="" id="navbar">
+   <ul class="nav-upper flex-space-around">
+    <li class="nav-list">
+        <a href="./index.html" class="nav-link home">home</a>
+    </li>
+    <li class="nav-list">
+        <a href="./register.html" class="nav-link">register</a>
+    </li>
+    <li class="nav-list">
+        <a href="./login.html" class="nav-link">login</a>
+    </li>
+    <li class="nav-list">
+        <a href="./index.html" class="nav-link">logout</a>
+    </li>
+    <li class="nav-list">
+        <a href="./contact.html" class="nav-link">contact</a>
+    </li>
+    <li class="nav-list profile-icon">
+        <a href="./profile.html" class="nav-link">
+            <img src="./image/Husain.jpeg" alt="profile icon" >
+        </a>
+    </li>
+   </ul>
+
+   <ul class="lower-nav flex-space-around" id="hide_second-nav">
+    <li class="nav-list"><a href="./index.html" class="nav-link nav-brand">
+  emam hossain express
+    </a>
+    <li class="nav-list"><a href="./product.html" class="nav-link">
+       <span></span> Cart 2 products - $124.40
+          </a>
+   </li>
+   </ul>
+ </nav>
+
+ <!-- nav bar ends here -->
+
+<main>
+   
+
+    <section class="register">
+        <h2 class="section-title text-center">
+            User Registration
+        </h2>
+        <div class="card flex-center">
+            <form action="" class="form">
+
+                <div class="form-control flex-center">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required autocomplete="name">
+
+                </div>
+
+                <div class="form-control flex-center">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" required autocomplete="email">
+
+                </div>
+
+                <div class="form-control flex-center">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required autocomplete="password">
+
+                </div>
+
+            <div class="form-control flex-center">
+         <label for="about" class="textarea-label">About Me</label>
+        <textarea rows="2" cols="5" id="about" name="about" class="textarea"></textarea>
+
+            </div>
+
+                <div class="form-control flex-center form-btn-field">
+                   <button class="btn submit">
+                    submit
+                   </button>
+
+                </div>
+
+            </form>
+        </div>
+    </section>
+</main>
+
+
+
+ <!-- footer starts here -->
+ <footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to newsletter</label>
+        <input type="email" id="subscribe" name="subscribe" class="footer-input" placeholder="Your Email Address">
+        <button class="btn btn-subscribe">subscribe</button>
+   
+    </div>
+    <div>
+        <p>&copf; Copyright 2023 Emam Hossain Express.All rights reserved</p>
+    </div>
+
+ </footer>
+ <!-- footer ends here -->
+
+ <script src="/script.js"></script>
+    </body>
+</html>
